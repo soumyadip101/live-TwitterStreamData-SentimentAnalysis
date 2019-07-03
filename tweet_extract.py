@@ -33,7 +33,7 @@ class Listener(StreamListener):
 		else:
 			save = tweet+'::'+str(sentimentRating)+'::neutral\n'
 		# Store the tweets along with there sentiments in an output file
-		output = open('output.txt','a', encoding='utf-8')
+		output = open('tweets.txt','a', encoding='utf-8')
 		output.write(save)
 		output.close()
 		return True
