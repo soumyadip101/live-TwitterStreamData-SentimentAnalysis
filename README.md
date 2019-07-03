@@ -2,7 +2,7 @@
 This application analyzes the sentiments of live tweets from twitter by classifying them as positive and negative tweets using TextBlob and then visualizes the live sentiment trend of the search words using a line graph.
 
 ## Installation
-- pip install -r `requirements.txt`
+- `pip install -r requirements.txt`
 
 ## Setup
 - Sign up for a Twitter [developer account](https://developer.twitter.com/). 
