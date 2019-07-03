@@ -1,0 +1,7 @@
+tweepy
+ipython
+matplotlib
+scipy
+numpy
+pandas
+textblob
