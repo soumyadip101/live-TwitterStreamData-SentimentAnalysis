@@ -17,6 +17,6 @@ This application analyzes the sentiments of live tweets from twitter by classify
 - `TWITTER_APP_SECRET`
 
 ## Usage
-- `python tweet_extract.py` -- to scrape tweets from twitter using tweepy and also classify the sentiment of each tweet. Use `Ctrl + C` to stop.
-- `python plot_twitter_data.py` -- to generate a live line graph showing the sentiment trend of the searched word.
+- `python tweet_extract.py` -- to scrape tweets from twitter using tweepy and also classify the sentiment of each tweet. Use `Ctrl + C` to stop. This process will also generate an output file named 'tweets.txt' containg all the tweets and their corresponding sentiments.
+- `python plot_twitter_data.py` -- to generate a live line graph showing the sentiment trend of the searched word. This process will continuously read from the outplut file 'tweets.txt' and updated the line graph.
 - If you want to edit search words, they can be changed in `twitterApiSetup.py` file in the list `TRACK_TERMS`.
