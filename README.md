@@ -1,5 +1,8 @@
-# live-TwitterStreamData-SentimentAnalysis
+# Live Twitter Stream Data Sentiment Analysis
 This application analyzes the sentiments of live tweets from twitter by classifying them as positive and negative tweets using TextBlob and then visualizes the live sentiment trend of the search words using a line graph.
+- `tweepy` library is used for tweet extraction using a Twitter API
+- `textblob` library is used for sentiment analysis using the tweets
+- `matplotlib` library is used to generate a real time graphing of the live tweets. 
 
 ## Installation
 - `pip install -r requirements.txt`
